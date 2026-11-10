@@ -5,35 +5,35 @@
     "name": "辉煌帝"
   },
   "category": "玩法",
-  "changelog": "重置签名",
+  "changelog": "兼容新版本",
   "conflicts": [
     "npc-loot-rules"
   ],
   "delisted": false,
-  "description": "NPC掉落规则（261028 移植版）：按敌人类别/势力/舰船尺寸分配装备掉落，含指挥官、官员、监察官、旗舰、NET 共振器与蓝图掉落。",
+  "description": "NPC掉落规则（261028 移植版，适配 EveJS 261108.1）：按敌人类别/势力/舰船尺寸分配装备掉落，含指挥官、官员、监察官、旗舰、NET 共振器与蓝图掉落。",
   "displayName": "NPC掉落规则（261028 移植版）",
   "downloadUrls": [
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/huihuangdi/evejs-mod-npc-loot-rules-261028/releases/download/v0.2.1/npc-loot-rules-261028-0.2.1.zip"
+      "url": "https://github.com/huihuangdi/evejs-mod-npc-loot-rules-261028/releases/download/v0.3.1/npc-loot-rules-261028-0.3.1.zip"
     }
   ],
   "evejsVersions": [
-    "261028.x"
+    "261108.x"
   ],
   "featured": false,
   "highlights": [],
   "history": [],
   "id": "npc-loot-rules-261028",
-  "publishedAt": "2026-11-09",
+  "publishedAt": "2026-11-10",
   "readme": [
-    "移植自市场版 `npc-loot-rules` 0.1.3（作者 Materal，AGPL-3.0-only），适配 EveJS 261028.1。`data/` 沿用原版数据，完整规则见 [DROP-RULES.zh-CN.md](DROP-RULES.zh-CN.md)。包内有详细文档。可让AI直接上手修。"
+    "移植自市场版 `npc-loot-rules` 0.1.3（作者 Materal，AGPL-3.0-only）。0.2.x 适配 EveJS 261028.1；**0.3.0 起适配 EveJS 261108.1**（基线换新版，incursion 死亡残骸掉落路径已适配）。`data/` 沿用原版数据，完整规则见 [DROP-RULES.zh-CN.md](DROP-RULES.zh-CN.md)。包内有详细文档。可让AI直接上手修。"
   ],
   "repo": "https://github.com/huihuangdi/evejs-mod-npc-loot-rules-261028",
   "requiresRestart": true,
-  "sha256": "bba4da4c0f665eb04bb532ee3de82793dfdfac48ee2012dc1763a877e9ff23f1",
-  "sizeBytes": 148609,
+  "sha256": "c2b9ed8511e74a2fe4b5fbf64fd2c7f2d12dc796db959c8d984655b5ddd9566d",
+  "sizeBytes": 155025,
   "tags": [],
-  "version": "0.2.1"
+  "version": "0.3.1"
 }
